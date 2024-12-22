@@ -37,7 +37,7 @@ export default function Footer() {
             className="footer-link"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://vercel.com/templates/next.js/portfolio-starter-kit"
+            href="https://github.com/SrikanthNandanaboina/Voice-Recorder"
           >
             <ArrowIcon />
             <p className="footer-text">view source</p>

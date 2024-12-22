@@ -1,0 +1,36 @@
+.footer {
+  margin: 1rem 0 4rem 0;
+}
+
+.footer-list {
+  font-size: 0.875rem;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  color: #666666;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-link {
+  display: flex;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-link:hover {
+  color: #333333;
+}
+
+.footer-text {
+  margin-left: 0.5rem;
+}
+
+.footer-copyright {
+  margin-top: 2rem;
+  color: #666666;
+}

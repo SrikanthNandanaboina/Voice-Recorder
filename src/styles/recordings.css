@@ -1,0 +1,13 @@
+.wrapper {
+  min-height: 37rem;
+}
+
+.buttons {
+  margin: 1rem 0 2rem;
+}
+
+.chunks-list {
+  margin-top: 1rem;
+  line-height: 200%;
+  list-style-type: none;
+}

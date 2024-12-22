@@ -1,0 +1,44 @@
+.navigation-container {
+  margin-bottom: 4rem;
+  letter-spacing: -0.5px; /* Slight adjustment for tracking-tight */
+}
+
+.sticky-container {
+  position: sticky;
+  top: 20px;
+}
+
+.navigation-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  position: relative;
+  padding: 0;
+  overflow: auto;
+}
+
+.navigation-links {
+  display: flex;
+  flex-direction: row;
+  gap: 10px; /* Replaces space-x-0 and pr-10 */
+}
+
+.navigation-link {
+  transition: all 0.3s ease;
+  color: inherit;
+  padding: 1px 2px;
+  margin: 1px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.navigation-link:hover {
+  color: #656c7a; /* Neutral-800 */
+}
+
+.navigation-link:active,
+.navigation-link:focus {
+  color: #e2e8f0; /* Neutral-200 (Dark mode simulation) */
+}

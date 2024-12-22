@@ -40,3 +40,39 @@ a {
     color-scheme: dark;
   }
 }
+
+/* Styles for the HTML element */
+.custom-html {
+  color: black;
+  background-color: black;
+}
+
+.custom-html.dark {
+  color: white;
+  background-color: black;
+}
+
+/* Styles for the body */
+.custom-body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  max-width: 38rem;
+  margin: 2rem auto 0 auto;
+  padding: 0 1rem;
+}
+
+/* Styles for the main element */
+.custom-main {
+  flex: 1 1 auto;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .custom-main {
+    padding: 0;
+  }
+}
